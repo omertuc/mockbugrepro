@@ -2,6 +2,9 @@ module github.com/omertuc/test
 
 go 1.18
 
+require golang.org/x/tools v0.3.0
+
 require (
-	golang.org/x/tools v0.0.0-20200323144430-8dcfad9e016e
+	golang.org/x/mod v0.7.0 // indirect
+	golang.org/x/sys v0.2.0 // indirect
 )
